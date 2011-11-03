@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/changebar
+# catalog-date 2009-09-24 20:53:04 +0200
+# catalog-license lppl
+# catalog-version 3.5c
 Name:		texlive-changebar
 Version:	3.5c
 Release:	1
@@ -57,6 +63,7 @@ DVI drivers, and VTeX and PDFTeX.
 #- source
 %doc %{_texmfdistdir}/source/latex/changebar/changebar.dtx
 %doc %{_texmfdistdir}/source/latex/changebar/changebar.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -67,3 +74,5 @@ DVI drivers, and VTeX and PDFTeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
