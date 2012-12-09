@@ -63,3 +63,18 @@ DVI drivers, and VTeX and PDFTeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.5c-2
++ Revision: 750076
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 3.5c-1
++ Revision: 718029
+- texlive-changebar
+- texlive-changebar
+- texlive-changebar
+- texlive-changebar
+- texlive-changebar
+
