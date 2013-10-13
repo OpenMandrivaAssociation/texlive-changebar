@@ -1,12 +1,12 @@
-# revision 15878
+# revision 29349
 # category Package
 # catalog-ctan /macros/latex/contrib/changebar
-# catalog-date 2009-09-24 20:53:04 +0200
+# catalog-date 2011-09-30 20:51:09 +0200
 # catalog-license lppl
 # catalog-version 3.5c
 Name:		texlive-changebar
 Version:	3.5c
-Release:	2
+Release:	3
 Summary:	Generate changebars in LaTeX documents
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/changebar
@@ -63,18 +63,3 @@ DVI drivers, and VTeX and PDFTeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.5c-2
-+ Revision: 750076
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 3.5c-1
-+ Revision: 718029
-- texlive-changebar
-- texlive-changebar
-- texlive-changebar
-- texlive-changebar
-- texlive-changebar
-
