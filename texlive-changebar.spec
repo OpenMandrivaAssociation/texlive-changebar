@@ -6,7 +6,7 @@
 # catalog-version 3.5c
 Name:		texlive-changebar
 Version:	3.5c
-Release:	7
+Release:	8
 Summary:	Generate changebars in LaTeX documents
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/changebar
