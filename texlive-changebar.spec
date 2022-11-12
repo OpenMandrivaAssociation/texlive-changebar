@@ -5,9 +5,9 @@ Summary:	Generate changebars in LaTeX documents
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/changebar
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/changebar.r63259.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/changebar.doc.r63259.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/changebar.source.r63259.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/changebar.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/changebar.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/changebar.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
