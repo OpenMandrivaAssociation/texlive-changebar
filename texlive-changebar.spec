@@ -1,6 +1,6 @@
 Name:		texlive-changebar
-Version:	63259
-Release:	2
+Version:	69220
+Release:	1
 Summary:	Generate changebars in LaTeX documents
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/changebar
