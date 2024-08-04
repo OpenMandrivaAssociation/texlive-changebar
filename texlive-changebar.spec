@@ -1,5 +1,5 @@
 Name:		texlive-changebar
-Version:	69367
+Version:	71847
 Release:	1
 Summary:	Generate changebars in LaTeX documents
 Group:		Publishing
