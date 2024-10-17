@@ -3,7 +3,7 @@ Version:	71847
 Release:	1
 Summary:	Generate changebars in LaTeX documents
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/changebar
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/changebar
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/changebar.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/changebar.doc.r%{version}.tar.xz
