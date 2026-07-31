@@ -1,9 +1,9 @@
 %global tl_name changebar
-%global tl_revision 77682
+%global tl_revision 79719
 
 Name:		texlive-%{tl_name}
 Epoch:		1
-Version:	3.7e
+Version:	3.7g
 Release:	%{tl_revision}.1
 Summary:	Generate changebars in LaTeX documents
 Group:		Publishing
